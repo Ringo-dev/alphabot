@@ -1,7 +1,6 @@
 import requests
 import random
 import json
-from pathlib import Path
 
 with open('config.json', 'r') as f:
     config = json.load(f)
